@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.pipeworx-io/usajobs",
+  "title": "Usajobs",
+  "description": "USAJOBS.gov MCP — US federal job postings",
+  "version": "0.1.0",
+  "websiteUrl": "https://pipeworx.io/packs/usajobs",
+  "repository": {
+    "url": "https://github.com/pipeworx-io/mcp-usajobs",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gateway.pipeworx.io/usajobs/mcp"
+    }
+  ]
+}
