@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/usajobs",
   "title": "Usajobs",
   "description": "USAJOBS.gov MCP — US federal job postings",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/usajobs",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-usajobs",
