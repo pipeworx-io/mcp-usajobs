@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-usajobs",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "USAJOBS.gov MCP — US federal job postings",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-usajobs": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "usajobs"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-usajobs.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/usajobs",
   "pipeworx": {
-    "sourceHash": "v1-6d4edea70b7c2bbeaacc5070b9313a5ffb0ae2fea05e81a81f1d8cabb61bbe2a",
-    "sourceCommit": "66a0692f029179984440cef6938cba7fdd41d66d"
+    "mode": "gateway",
+    "slug": "usajobs",
+    "gatewaySlug": "usajobs",
+    "sourceHash": "v1-a539a8450e28fa86fee39c4433aea1217973cfd7d67f83f8dd93bd2564dce120",
+    "sourceCommit": "98853f34516646cb7c4c1460f09249b262c0269e"
   }
 }
