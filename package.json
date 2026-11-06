@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-usajobs",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "USAJOBS.gov MCP — US federal job postings",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "usajobs",
     "gatewaySlug": "usajobs",
-    "sourceHash": "v1-a539a8450e28fa86fee39c4433aea1217973cfd7d67f83f8dd93bd2564dce120",
-    "sourceCommit": "98853f34516646cb7c4c1460f09249b262c0269e"
+    "sourceHash": "v1-fc9454de9d31a42ac14a8a0e71eea4e35ee0cdcc635969520453d14d05684701",
+    "sourceCommit": "ca52e7ed1e1ccad897c2da1b0fa105edc0bc3b2e"
   }
 }
